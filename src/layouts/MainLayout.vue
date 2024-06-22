@@ -12,8 +12,9 @@
         />
 
         <q-toolbar-title>
-          Программное обеспечение для внедрения стеганографического контейнера в
-          цифровое изображение
+          Разработка программного средства визуализации сценариев реализации
+          угроз информационной безопасности на основе методов интеллектуального
+          анализа текстов
         </q-toolbar-title>
       </q-toolbar>
     </q-header>
@@ -42,26 +43,20 @@ import EssentialLink from "components/EssentialLink.vue";
 
 const linksList = [
   {
-    title: "Упаковка стегоконтейнера",
-    caption: "(внедрение стегоконтейнера)",
+    title: "Загрузка данных",
+    caption: "(отчет в формате HTML)",
     icon: "print",
     link: "/#",
   },
   {
-    title: "Извлечение стегоконтейнером",
-    caption: "(извлечение стегоконтейнера)",
-    icon: "font_download",
-    link: "/extract",
-  },
-  {
     title: "Рассчет параметров",
-    caption: "(оценка, детектор контейнера)",
+    caption: "(Визуализация)",
     icon: "record_voice_over",
     link: "/calc_params",
   },
   {
     title: "О проекте",
-    caption: "@StegoAI",
+    caption: "@BDU_TEXTMINING",
     icon: "public",
     link: "/about",
   },
